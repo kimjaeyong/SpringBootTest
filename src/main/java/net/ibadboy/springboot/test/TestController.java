@@ -10,7 +10,7 @@ public class TestController {
 	@ResponseBody
 	@RequestMapping("/")
 	public String root() {
-		return "Spring Boot Test";
+		return "Spring Boot Test ...";
 	}
 	
 	@ResponseBody
